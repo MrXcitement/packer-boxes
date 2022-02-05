@@ -1,8 +1,9 @@
-# Cache objects
-packer_cache/
-
-# Crash log
+# Ignore the Crash log
 crash.log
 
-# For built boxes
+# Ignore packer 'box' files
 *.box
+
+# Ignore working directories
+.vagrant/
+packer_cache/
